@@ -2,3 +2,23 @@ body{
 	background: black;
 	color: white;
 }
+
+p{
+	font-size: 18px;
+}
+
+#wins {
+	color: green;
+}
+
+#losses {
+	color: red;
+}
+
+#currentGuesses {
+	color: yellow;
+}
+
+/*#displayMessage {
+	display: none;
+}*/
