@@ -26,6 +26,8 @@ document.onkeyup = function (event) {
 			guessesLeft=9;
 			currentGuesses=[];			
 			document.getElementById("wins").innerHTML = wins;
+			document.getElementById("guessesLeft").innerHTML = guessesLeft;
+			document.getElementById("currentGuesses").innerHTML= currentGuesses.join(" ");			
 			randomletter = alphabet[Math.floor(Math.random() * alphabet.length)];
 			console.log(randomletter);
 		}
