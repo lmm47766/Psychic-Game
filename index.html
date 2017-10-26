@@ -9,15 +9,12 @@
 	<body>
 		<h1>The Psychic Game</h1>
 		
-   
-		Guess what letter I am thinking of: 
-		<input id="guess" type="text" onkeydown = "if (event.keyCode == 13)document.getElementById('displayMessage').click()">
-		<input id="displayMessage" type="button" value="Enter" onClick="guessedLetter()"/>
 
-		<p id="wins">Wins: 0</p>
-		<p id="losses">Losses: 0</p>
-		<p id="guessesLeft">Guesses Left: 9</p>
-		<p id="currentGuesses">Your Guesses so far: </p>
+		<p id="numGuess">Guess number I am thinking of:  <span id="letter"></span></p>
+		<p id="win">Wins:  <span id="wins"></span></p>
+		<p id="lose">Losses:  <span id="losses"></span></p>
+		<p id="gLeft">Number of Guesses Remaining:  <span id="guessesLeft"></span></p>
+		<p id="currGuess">Letters already Guessed:  <span id="currentGuesses"></span></p>
 
 
 		<script src="assets/javascript/game.js"></script>

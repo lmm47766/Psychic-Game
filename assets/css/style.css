@@ -1,24 +1,25 @@
 body{
-	background: black;
-	color: white;
+	text-align: center;
+}
+
+h1{
+	font-size: 40px;
 }
 
 p{
 	font-size: 18px;
 }
 
-#wins {
-	color: green;
-}
 
-#losses {
+#lose{
 	color: red;
 }
 
-#currentGuesses {
-	color: yellow;
+
+#underscores{
+	font-size: 35px;
 }
 
-/*#displayMessage {
-	display: none;
-}*/
+#win{
+	color: green;
+}
